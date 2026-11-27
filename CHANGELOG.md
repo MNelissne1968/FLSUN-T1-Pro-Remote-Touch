@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0 DEV Build 06E1 — unreleased
+
+- Offline virtual legacy touch bridge with explicit rearm, one-use authorization and fail-closed error handling.
+- No automatic retries on ambiguous failures.
+- Windows validation: 60/60 automated tests and 22/22 regression checklist items.
+- Browser-to-bridge and physical hardware integration remain pending.
+
 ## 0.2.1 — 2026-11-27
 
 - Original framebuffer viewer and interactive touchscreen event injection.
