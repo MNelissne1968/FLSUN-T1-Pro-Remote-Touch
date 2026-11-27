@@ -22,6 +22,8 @@ Tested on one FLSUN T1 Pro with a disconnected touchscreen: live display, menu n
 
 ## Requirements
 
+**Required firmware: 1.0.1.5 (known working SSH-enabled version, confirmed by the project maintainer).** Earlier firmware versions are not supported by this guide. Later versions must be checked for working SSH access before installation.
+
 The printer must already be connected to Wi-Fi or an accessible network, with working SSH credentials and sudo access. The original TUI must still be running. The tested configuration uses Python 3.7, ARMv7 Linux, systemd, /dev/fb0 (480 × 272, 32-bit BGRA, stride 1920), /dev/input/event1 (tlsc6x_touch) and /etc/pointercal. A disconnected display must not prevent these devices from working.
 
 ## Installation
