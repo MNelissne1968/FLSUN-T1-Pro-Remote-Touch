@@ -1,5 +1,9 @@
 # FLSUN T1 Pro Remote Touch
 
+## Latest development checkpoint — Build 06E1
+
+[Build 06E1](remote_touch_v030_dev_build06e1.py) adds an offline virtual touch bridge test suite. Maintainer-confirmed Windows results: 25/25 self-tests, 17/17 API tests, 18/18 bridge tests and 22/22 regression checklist items (including confirmation of the three suites). The browser still uses the simulation API; no physical bridge is enabled. See [testing](docs/TESTING.md) and [roadmap](docs/ROADMAP.md).
+
 **Restore your touchscreen. Without replacing it.**
 
 An independent, community-driven project that displays the original FLSUN T1 Pro touchscreen in a web browser and allows interactive control, even when the physical display is disconnected.
