@@ -4,6 +4,8 @@ The Python application was tested on one FLSUN T1 Pro. The packaged installer an
 
 ## 1. Connect
 
+**Required firmware: 1.0.1.5 (known working SSH-enabled version, confirmed by the project maintainer).** Earlier firmware versions are not supported by this guide. Later versions must be checked for working SSH access before installation.
+
 The printer must already have working Wi-Fi/network access, SSH credentials and sudo rights. Find its IP in your router's connected-device list. Replace PRINTER_IP below with that address. On Windows PowerShell:
 
 ```powershell
