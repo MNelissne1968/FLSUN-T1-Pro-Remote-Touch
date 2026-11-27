@@ -1,5 +1,9 @@
 # Testing — Build 06D
 
+## Build 06E1 checkpoint
+
+Run `python remote_touch_v030_dev_build06e1.py --self-test`, `--api-test` and `--bridge-test` separately. Expected counts: 25, 17 and 18 passes respectively. All confirmed on Windows. Live regression: 22/22 checklist items, including suite confirmations. The bridge suite uses a temporary local mock server; it tests coordinate transfer, token replay, status changes, expiry, legacy rejection, unexpected responses, timeout, disconnect, explicit rearm and concurrent replay. No physical touch is sent. The live browser remains on the existing simulation API.
+
 Maintainer-reported Windows results: 25/25 internal self-tests, 17/17 HTTP API tests and 21/21 live regression checklist items (the latter includes confirmation of both automated suites). Historical cumulative records: 249/251, with 54/54 fault-test records tracked separately; these include repeated checks and are not an independent audit.
 
 Run with Python 3.12 (tested on Windows):
