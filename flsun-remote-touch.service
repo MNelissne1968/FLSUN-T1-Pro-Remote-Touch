@@ -1,0 +1,16 @@
+[Unit]
+Description=FLSUN T1 Pro Remote Touch
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/flsun-remote-touch
+ExecStart=/usr/bin/python3 -u /opt/flsun-remote-touch/remote_touch_v021.py
+Restart=always
+RestartSec=5
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target
